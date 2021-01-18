@@ -1,8 +1,4 @@
-const BlogList = ({ blogs, title }) => {
-
-    const handleDelete = (id) => {
-        
-    }
+const BlogList = ({ blogs, title, handleDelete }) => {
 
     return (
         <div className="blog-list">
